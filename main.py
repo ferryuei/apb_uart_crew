@@ -2,7 +2,7 @@ import os
 from crewai import Agent, Task, Crew, LLM
 
 os.environ["ANTHROPIC_BASE_URL"] = "https://cloud.infini-ai.com/maas/coding"
-os.environ["ANTHROPIC_AUTH_TOKEN"] = "sk-cp-mcbhmyjwish2iwbl"
+os.environ["ANTHROPIC_AUTH_TOKEN"] = "sk-cp-mcbhmyjwishbl"
 os.environ["CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC"] = "1"
 os.environ["ANTHROPIC_API_KEY"] = ""
 os.environ["ANTHROPIC_DEFAULT_HAIKU_MODEL"] = "glm-5"
@@ -12,7 +12,7 @@ os.environ["ANTHROPIC_DEFAULT_OPUS_MODEL"] = "glm-5"
 llm = LLM(
     model="glm-5",
     base_url="https://cloud.infini-ai.com/maas/coding/v1",
-    api_key="sk-cp-mcbhmyjwish2iwbl",
+    api_key="sk-cp-mcbhmyjwish2il",
     temperature=0.1,
 )
 
